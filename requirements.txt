@@ -1,0 +1,79 @@
+# Core Python dependencies for production SaaS starter
+# Python 3.11+
+
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Database & ORM
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.23
+alembic==1.13.0
+asyncpg==0.29.0
+
+# Authentication & Security
+pyjwt==2.8.0
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+bcrypt==4.1.1
+
+# Payment Processing
+stripe==7.7.0
+
+# Email & Background Tasks
+celery==5.3.4
+redis==5.0.1
+python-dotenv==1.0.0
+
+# Data Validation
+pydantic==2.5.2
+pydantic-settings==2.1.0
+email-validator==2.1.0
+
+# HTTP Client
+httpx==0.25.2
+aiohttp==3.9.1
+
+# Monitoring & Logging
+sentry-sdk==1.38.0
+python-json-logger==2.0.7
+
+# Testing (keep in main requirements for CI/CD)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+httpx==0.25.2
+faker==20.1.0
+
+# Code Quality
+black==23.12.0
+flake8==6.1.0
+mypy==1.7.1
+isort==5.13.0
+pylint==3.0.3
+
+# Documentation
+pydantic[email]==2.5.2
+
+# Utils
+python-slugify==8.0.1
+pytz==2023.3.post1
+python-dateutil==2.8.2
+
+# Rate Limiting
+slowapi==0.1.9
+
+# CORS & Middleware
+python-cors==1.0.0
+
+# File Storage & Image Processing
+pillow==10.1.0
+boto3==1.34.7
+
+# Metrics & Analytics
+prometheus-client==0.19.0
+
+# Admin Panel
+sqladmin==0.16.1
